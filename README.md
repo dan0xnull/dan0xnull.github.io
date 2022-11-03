@@ -1,1 +1,1 @@
-# danysite.github.io
+# Bug Bounty Cheatsheet
