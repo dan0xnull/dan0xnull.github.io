@@ -42,10 +42,7 @@ It can also be centered!
 Here's a code chunk:
 
 ~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+cat ~/bb/out/js-"{domain}"-200.txt | httpx -silent -fs mercusuar |  xargs -I {} 'python3 ~/bb/customtools/SecretFinder.py -i {} -o cli'
 ~~~
 
 And here is the same code with syntax highlighting:
