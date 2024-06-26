@@ -41,9 +41,10 @@ It can also be centered!
 
 Here's a code chunk:
 
-~~~
+```bash
 cat ~/bb/out/js-"{domain}"-200.txt | httpx -silent -fs mercusuar |  xargs -I {} 'python3 ~/bb/customtools/SecretFinder.py -i {} -o cli'
-~~~
+
+```
 
 And here is the same code with syntax highlighting:
 
